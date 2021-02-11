@@ -1,0 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:#1C98A6;
+  font-family:Kumbh Sans;
+}
+.card-container{
+  background-color:#FFFFFF;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  margin:90px auto;
+  height:auto;
+  width:350px;
+
+}
+.pattern{
+  text-align:center;
+}
+.pattern img{
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+}
+.profile-image{
+  height:100px;
+  width:100px;
+  background:#FFFFFF;
+  border:5px solid #FFFFFF;
+  border-radius:50%;
+  position:relative;
+  bottom:70px;
+  left:120px;
+  text-align:center;
+}
+.profile-image img{
+  border-radius:50%;
+}
+.name{
+  color:#3D3E4B;
+  font-size:18px;
+  font-weight:800;
+  position:relative;
+  right:20px;
+  margin-top:30px;
+  width:140px;
+}
+.age,.location{
+  color:#BABBBD;
+  font-weight:400;
+}
+.location{
+  font-size:14px;
+  margin-top:10px;
+}
+.stats{
+  background:green;
+}
+table{
+  margin-top:20px;
+}

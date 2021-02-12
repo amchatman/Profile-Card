@@ -8,14 +8,12 @@ body{
 }
 .card-container{
   background-color:#FFFFFF;
-  border-top-left-radius:15px;
-  border-top-right-radius:15px;
+  border-radius:15px;
   margin:90px auto;
-  height:auto;
+  height:360px;
   width:350px;
-
 }
-.pattern{
+.pattern,.profile-image{
   text-align:center;
 }
 .pattern img{
@@ -31,13 +29,14 @@ body{
   position:relative;
   bottom:70px;
   left:120px;
-  text-align:center;
 }
 .profile-image img{
   border-radius:50%;
 }
-.name{
+.name,.profile-stats h4,hr{
   color:#3D3E4B;
+}
+.name{
   font-size:18px;
   font-weight:800;
   position:relative;
@@ -45,7 +44,7 @@ body{
   margin-top:30px;
   width:140px;
 }
-.age,.location{
+.age,.location,.profile-stats p{
   color:#BABBBD;
   font-weight:400;
 }
@@ -53,9 +52,21 @@ body{
   font-size:14px;
   margin-top:10px;
 }
-.stats{
-  background:green;
-}
-table{
+hr{
   margin-top:20px;
+}
+.profile-stats{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+.profile-stats h4{
+  margin:20px 20px 0 20px;
+  padding:5px;
+}
+
+.profile-stats p{
+  font-size:12px;
+  margin-top:5px;
 }

@@ -6,6 +6,17 @@ body{
   background-color:#1C98A6;
   font-family:Kumbh Sans;
 }
+.bg-pattern-top{
+  position:absolute;
+  bottom:300px;
+  left:-200px;
+  z-index:-1;
+}
+.bg-pattern-top img{
+  width:800px;
+  height:800px;
+}
+
 .card-container{
   background-color:#FFFFFF;
   border-radius:15px;

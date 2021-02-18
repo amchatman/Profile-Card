@@ -16,6 +16,19 @@ body{
   width:800px;
   height:800px;
 }
+.bg-pattern-bottom{
+  position:absolute;
+  top:350px;
+  left:600px;
+  max-width:680px;
+  max-height:339px;
+  overflow:hidden;
+  z-index:-1;
+}
+.bg-pattern-bottom img{
+  width:750px;
+  height:750px;
+}
 
 .card-container{
   background-color:#FFFFFF;
@@ -80,4 +93,7 @@ hr{
 .profile-stats p{
   font-size:12px;
   margin-top:5px;
+}
+.attribution a{
+
 }
